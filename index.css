@@ -1,0 +1,443 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(227, 227, 227);
+    margin: 0%;
+    padding: 0%;
+}
+.tete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/banniere.jpg);
+    height: 52vh;
+    background-size: cover;
+}
+.slogan{display: flex;
+    width: 500px;
+    color: white;
+    justify-content: center;
+}
+.p{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    height: 7vh;
+    line-height: 7vh;
+    color: white;
+}
+.bg-blue{
+    background-color: rgb(50, 158, 216);
+}
+.bg-black{
+    background-color: black;
+}
+.margin-x-auto {
+    margin: 0 auto;
+}
+.space-around{display: flex;
+    justify-content: space-around;
+}
+.header-menu{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ul{    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.c-white{
+    color: white;
+}
+.contaire-size{
+    width: 70%;
+    margin: 3% auto;
+}
+footer{
+    font-size: 11px;
+    background-color: rgb(35, 35, 35);
+    display: block;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    overflow: clip
+}
+.colum-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border-img{
+    border: 3px solid white;
+}
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#propos section{
+    width: 45%;
+}
+.marg50{
+    margin-left: 50px;
+}
+section{
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+#large{
+    font-size: larger;
+}
+#contact section{
+    width: 45%;
+}
+#contact ul{
+    padding: 0;
+}
+.bg-white{
+    background-color: white;
+    padding: 2px;
+    border: 1px solid black;
+}
+.mt-1{
+    margin-top: 1.5%;
+}
+.button1{
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    width: 30%;
+    margin-top: 2%;
+    font-size: large;
+    color: white;
+    background-color: black;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    height: 200px !important;
+    width: 414px !important;
+}
+.services1{display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.img-flex{    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.wi-70{
+    width: 70%;
+}
+span{
+    color: rgb(50, 158, 216);
+    font-size: larger;
+    font-weight: bold;
+}
+.button2 {
+    border-radius: 5px;
+    border: none;
+    height: 6vh;
+    width: 60%;
+}
+.wi-47{
+    width: 47.5%;
+}
+.img1{
+    width: 100%;
+}
+#Accueil a{
+    color: rgb(50, 158, 216);
+    text-decoration: none;
+}
+.recad{
+    height: 140px;
+    width: 140px;
+}
+.ml5{
+    margin-left: 5%;
+}
+.mt0{
+    margin-top: 0%;
+}
+.mt9{
+    margin-top: 9%;
+}
+@media only screen and (max-width: 736px) {
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: rgb(227, 227, 227);
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    .tetetel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(img/banniere.jpg);
+        height: 36vh;
+        background-size: cover;
+    }
+    .slogantel{display: flex;
+        width: 310px;
+        color: white;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .ptel{
+        display: flex;
+        width: 300px;
+        height: 100px;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 10px;
+        display: none;
+    }
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px
+    }
+    .menutel{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        padding: 0;
+        list-style-type: none;
+        height: 28vh;
+        line-height: 7vh;
+        color: white;
+    }
+    .bg-blue{
+        background-color: rgb(50, 158, 216);
+    }
+    .bg-black{
+        background-color: black;
+        height: 28vh;
+        padding-left: 8%;
+    }
+    .margin-x-auto {
+        margin: 0 auto;
+    }
+    .space-aroundtel{display: block;
+        justify-content: space-around;
+    }
+    .header-menu{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    ul{    margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        list-style-type: none;
+    }
+    li{
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    .c-white{
+        color: white;
+    }
+    .contaire-size{
+        width: 70%;
+        margin: 3% auto;
+    }
+    footer{
+        font-size: 11px;
+        background-color: rgb(35, 35, 35);
+        display: flex;
+        flex-direction: column;
+    }
+    .space-betweentel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        overflow: clip
+    }
+    .colum-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3vh;
+    }
+    .border-img{
+        border: 3px solid white;
+    }
+    h2{
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    #propos section{
+        width: 100%;
+    }
+    .marg50{
+        margin-left: 10px;
+    }
+    section{
+        display: block;
+    }
+    #large{
+        font-size: larger;
+    }
+    #contact section{
+        width: 45%;
+    }
+    #contact ul{
+        padding: 0;
+    }
+    .bg-white{
+        background-color: white;
+        padding: 2px;
+        border: 1px solid black;
+        width: 200px;
+    }
+    .mt-1{
+        margin-top: 1vh;
+    }
+    .button1{
+        border-radius: 5px;
+        border: none;
+        height: 6vh;
+        width: 63%;
+        margin-top: 2%;
+        font-size: large;
+        color: white;
+        background-color: black;
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        height: 200px !important;
+        width: 280px !important;
+    }
+    .services1{display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3%;
+    }
+    .img-flex{    border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .wi-70{
+        width: 70%;
+    }
+    span{
+        color: rgb(50, 158, 216);
+        font-size: larger;
+        font-weight: bold;
+    }
+    .button2 {
+        border-radius: 5px;
+        border: none;
+        height: 6vh;
+        width: 60%;
+    }
+    .wi-47{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+    #Accueil a{
+        color: rgb(50, 158, 216);
+        text-decoration: none;
+    }
+    .recad{
+        height: 140px;
+        width: 140px;
+    }
+    .ml5{
+        margin-left: 5%;
+    }
+    .mt0{
+        margin-top: 8%;
+    }
+    .mt9{
+        margin-top: 9%;
+    }
+    .maptel{
+        width: 136px !important;
+        height: 270px !important;
+        margin-left: 27px;
+        margin-top: 22px;
+    }
+    .mid-image{
+        height: 8vh;
+    }
+    .formtel{
+        margin-top: 1vh;
+    }
+    .contaire-size1{
+        width: 100%;
+        display: flex;
+        margin-left: 4%
+    }
+    .cont-size-tel{
+        width: 80%;
+    }
+    .text-services{
+        margin-left: 2%;
+    }
+    .footertel{
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        height: 7vh;
+        line-height: 4vh;
+        color: white;
+    }
+    .contaire-size2{
+        width: 93%;
+        display: flex;
+        margin-left: 4%
+    }
+    .align-propos{
+        display: flex;
+        flex-direction: column;
+    }
+}
